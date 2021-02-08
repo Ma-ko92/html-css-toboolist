@@ -4,3 +4,26 @@
     padding:0;
     box-sizing:border-box;
 }
+/* body settings */
+body{
+    background-color: #f6f8f9;
+}
+/* header */
+.header{
+    height: 70px;
+    background-color: white;
+}
+
+.logo{
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.heading{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: arial;
+    font-weight: 800;
+}
