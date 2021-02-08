@@ -13,17 +13,56 @@ body{
     height: 70px;
     background-color: white;
 }
-
+/* logo */
 .logo{
     vertical-align: middle;
     display: inline-block;
     margin-top: 10px;
     margin-left: 15px;
 }
-
+/* title */
 .heading{
     display: inline-block;
     vertical-align: middle;
     font-family: arial;
     font-weight: 800;
 }
+/* header end */
+/* main */
+/* container */
+.container{
+    width:700px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left:20%;
+    margin-right:20%;
+    margin-bottom: 30px;
+}
+/* navigation */
+nav{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.task{
+    background-color: #47adf1;
+    border: 1px solid #a4d6f8;
+    color:white;
+    padding: 7px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px;
+    display:inline-block
+}
+
+.section{
+    background-color:white;
+    border: 1px solid lightgrey;
+    color:lightgrey;
+    padding: 7px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px;
+    display:inline-block
+}
+/* navigation end */
