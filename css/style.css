@@ -28,7 +28,9 @@ body{
     font-weight: 800;
 }
 /* header end */
+
 /* main */
+
 /* container */
 .container{
     width:700px;
@@ -64,14 +66,14 @@ nav{
     border-radius: 5px;
     text-decoration: none;
     margin-top: 15px;
-        display:inline-block
+    display:inline-block
 }
 /* navigation end */
 hr{
     border: 1px solid #f6f8f9;
 }
 /* check list */
-.list-one{
+.list-name{
      vertical-align: middle;
      color:#4a4d56;
      font-family: arial;
@@ -81,12 +83,25 @@ hr{
 h3{
     display: inline-block;
 }
+/* mark list */
 .mark{
     font-size: 25px;
 }
+/* list */
 ul{
     list-style: none;
+    margin-top: 10px;
 }
+
+/* list text */
+li{
+    display: inline-block;
+    font-family: arial;
+    font-weight: 600;
+    color:#4a4d56;
+    margin-top: 2px;
+}
+/* done dot */
 .done{
     display: inline-block;
     width:18px;
@@ -100,8 +115,82 @@ ul{
     margin-left: 5px;
     margin-right:10px;
 }
-li{
+/* not done dot */
+.not-done{
     display: inline-block;
-    font-family: arial;
-    color:#4a4d56;
+    width:18px;
+    height:18px;
+    font-size: 9px;;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-right:10px;
 }
+/* category */
+.cat-one{
+    margin-left: 10px;
+    background-color: #47adf1;
+    border: 1px solid #a4d6f8;
+    color:white;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.cat-two{
+    margin-left: 10px;
+    background-color: #9c72e4;
+    border: 1px solid #c4abef;
+    color:white;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.cat-three{
+    margin-left: 10px;
+    background-color: #64c0a9;
+    border: 1px solid #91d3c3;
+    color:white;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.cat-four{
+    margin-left: 10px;
+    background-color: #f29e33;
+    border: 1px solid #fad9a7;
+    color:white;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.cat-five{
+    margin-left: 10px;
+    background-color: #d863a1;
+    border: 1px solid #eaacce;
+    color:white;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.cat-six{
+    margin-left: 10px;
+    background-color: #b0c926;
+    border: 1px solid #dee8a3;
+    color:white;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.last{
+    margin-bottom: 30px;
+}
+/* list end */
